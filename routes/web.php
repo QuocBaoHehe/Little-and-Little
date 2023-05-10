@@ -13,6 +13,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/trangchu', function () {
     return view('TrangCh');
+});
+Route::get('/lienhe', function () {
+    return view('ContactUs');
+});
+Route::get('/thanhtoan', function () {
+    return view('ThanhTon');
+});
+Route::get('/index', function () {
+    return view('index');
+});
+Route::get('/sukien', function () {
+    return view('SuKien1');
+});
+Route::get('/ctsukien', function () {
+    return view('CTSukien');
 });
